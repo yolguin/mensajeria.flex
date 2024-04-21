@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sidebar_header-image {
+    display: flex;
+    gap: 10px;  
+}
+
+.img-maria {
+    width: 60px;  
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-maria img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;   
+}
+
+.sidebar_header-text,
+.sidebar_users-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar_header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.sidebar_btn {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    border-top: solid 1px #d3c7c7;
+}
+
+.sidebar_btn button {
+padding: 15px;
+background-color: rgb(188, 134, 239);
+padding: 10px 30px 10px 30px;
+color: white;
+border: none;
+
+}
+
+.sidebar_users {
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    
+}
+.sidebar_users-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_users-li {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-top: solid 1px #d3c7c7;
+}
+
+.img-users {
+    width: 80px;  
+    height: 75px;
+    border-radius: 60%;
+    overflow: hidden;  
+}
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: rgb(235, 245, 240);
+    flex-direction: column;
+    align-items: center;
+}
+
+.mano {
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.manito-img {
+width: 200px;
+}
+
+.chat {
+    text-align: center;
+}
